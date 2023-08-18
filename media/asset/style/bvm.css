@@ -1,0 +1,938 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/media/image-and-png/backgroundimg.png');
+    background-repeat: no-repeat;
+    background-position: 20%;
+    ;
+}
+
+.slide-set{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 123px;
+}
+
+/* header section */
+#navbarNav ul li a:hover {
+    color: #137E02;
+}
+
+.shadows {
+    box-shadow: 2px 1px 12px black;
+}
+
+/* header section */
+/* footer section */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#set_footer {
+    margin-top: 7vw;
+    border-radius: 3px;
+    height: 520px;
+}
+
+#set_footer {
+    margin-top: 5vw;
+    border-radius: 3px;
+    height: 390px;
+}
+
+.list-style {
+    margin-left: 47vw;
+    margin-top: -52px;
+    display: flex;
+}
+
+.set-margin {
+    height: 12rem;
+    width: 52%;
+}
+
+.list-inline li {
+    color: #fff;
+}
+
+.sec-title .orange-line {
+    width: 5px;
+    height: 63px;
+    background-color: #137E02;
+    position: absolute;
+    left: 590px;
+    top: 48%;
+}
+
+.sec-title .decor-line1 {
+    width: 59px;
+    height: 5px;
+    position: absolute;
+    left: 67%;
+    top: 174%;
+    background: #137E02;
+}
+
+.sec-title-two .decor-line {
+    display: block;
+    width: 40%;
+    height: 4px;
+    background: #137E02;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 8px;
+}
+
+.social li:hover {
+    color: #137E02;
+    transition: 1s;
+}
+
+#image_set {
+    margin-left: -103px;
+}
+
+.paragraph_set {
+    font-size: 12px;
+    margin-left: -18px;
+    text-align: justify;
+}
+
+#heading-style {
+    font-size: 22px;
+    margin-top: 19px;
+    margin-left: -13px;
+}
+
+.list-item {
+    font-size: 12px;
+    line-height: 29px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.set-stylish {
+    margin-left: 65px;
+}
+
+.list-item-footer {
+    font-size: 12px;
+    line-height: 29px;
+    list-style-type: none;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hr-lines {
+    margin: 0px;
+}
+
+.copyright {
+    float: left;
+    margin-left: -1px;
+    font-size: 12px;
+    margin-top: 1px;
+}
+
+.footer-bottom p {
+    float: left;
+    margin-left: -34px;
+    font-size: 11px;
+}
+
+
+.footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+/* footer section */
+/* 
+slider */
+
+.set-img {
+    margin: 0px;
+}
+
+/* 
+slider */
+
+/* about page */
+.container .change-color {
+    color: #137E02;
+}
+
+.our-precense h1 {
+    text-align: center;
+    font-size: 37px;
+    font-weight: 500;
+}
+
+.horizontal-line {
+    display: block;
+    width: 30%;
+    background-color: #137E02;
+    position: relative;
+    margin-top: 3px;
+    margin-bottom: 25px;
+    margin-left: 35%;
+}
+
+.Agriculture-image img {
+    margin-top: 21px;
+    margin-left: 48px;
+    width: 93%;
+    border: 4px solid #137E02;
+    height: 24rem;
+}
+
+.card {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    overflow: hidden;
+    box-shadow: 8px -3px 8px rgb(43, 39, 39);
+}
+
+.card:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+/* about page */
+
+/* product & communitites page */
+
+.green-stylish span {
+    color: #137E02;
+}
+
+.green-line {
+    display: block;
+    width: 18%;
+    background-color: rgb(0, 133, 0);
+    position: relative;
+    margin-top: 3px;
+    margin-bottom: 25px;
+    margin-left: 8%;
+
+}
+
+.flower-img img {
+    width: 128px;
+    /* margin-top: -49px; */
+    vertical-align: bottom;
+    margin-top: 558px;
+}
+
+.green-border {
+    /* width: 25%; */
+    position: absolute;
+    /* height: 25px; */
+}
+
+/* product & communitites page */
+
+/* Edible oil and Non edible oil */
+.green-lines1 {
+    display: block;
+    width: 36%;
+    background-color: rgb(0, 133, 0);
+    position: relative;
+    margin-top: 3px;
+    margin-bottom: 25px;
+    margin-left: 8%;
+}
+
+/* Edible oil and Non edible oil */
+
+/* Bio fuel */
+
+
+.bio-fuels img{
+   width: 123px;
+   margin-left: 83px;
+   margin-top:-68vw;
+}
+
+#fuel-paragraph11 h4 {
+    color: gray;
+    font-weight: 900;
+    line-height: 23px;
+    margin-left: 103px;
+    margin-top:  213px;
+}
+#fuel-paragraph11 p{
+    position: relative;
+    left: 105px;
+}
+.red-lines6{
+    width: 75px;
+    height: 3px;
+    position: absolute;
+    left: 139px;
+    top: 44vw;
+   background-color: rgb(224, 26, 26);
+}
+
+.green-lines2 {
+    display: block;
+    width: 7%;
+    background-color: rgb(0, 133, 0);
+    position: relative;
+    margin-top: 3px;
+    margin-bottom: 25px;
+    margin-left: 7%;
+}
+
+.flower-img1 img {
+    width: 128px;
+    /* margin-top: -49px; */
+    vertical-align: bottom;
+    margin-top: 829px;
+}
+/* Bio fuel */
+/* Metals */
+
+
+/* Metals */
+.green-lines3 {
+    display: block;
+    width: 9%;
+    background-color: rgb(0, 133, 0);
+    position: relative;
+    margin-top: 3px;
+    margin-bottom: 25px;
+    margin-left: 8%;
+}
+
+.flower-img2 img {
+    width: 128px;
+    /* margin-top: -49px; */
+    vertical-align: bottom;
+    margin-top: 534px;
+/* Metals */
+
+
+/* CATTLEFEED & FERTILIZER */
+}
+.green-line4 {
+    display: block;
+    width: 11%;
+    background-color: rgb(0, 133, 0);
+    position: relative;
+    margin-top: 3px;
+    margin-bottom: 25px;
+    margin-left: 7%;
+}
+.flower-img3 img {
+    width: 128px;
+    /* margin-top: -49px; */
+    vertical-align: bottom;
+    margin-top: -47px;
+    margin-left: 92vw;
+}
+
+.text-lines4  h6{
+    margin-left: 290px;
+    position: relative;
+    top: -176px;
+}
+.radio-buttons1 div {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 5px solid green;
+    position: relative;
+    left: 47px;
+
+}
+.radio-buttons1 input[type="radio"] {
+    display: none;
+}
+.items-list li{
+    padding: 12px;
+}
+.items-list ul li{
+    position: relative;
+    left: 253px;
+    top: 143px;
+    list-style: none;
+}
+
+.fertilizer img{
+    width: 153px;
+    margin-left: 25px;
+    margin-top: 44px;
+}
+
+.green-line6 {
+    display: block;
+    width: 11%;
+    background-color: rgb(0, 133, 0);
+    position: relative;
+    top: -188px;
+    margin-bottom: 25px;
+    margin-left: 7%;
+}
+.fertilizer-item{
+    position: relative;
+    left: 173px;
+    top:-184px;
+}
+.fertilizer-item ul li{
+    list-style: none;
+    padding: 5px;
+    
+}
+/* CATTLEFEED & FERTILIZER */
+
+/* MINERALS & ORES */
+.green-lines5 {
+    display: block;
+    width: 13%;
+    background-color: rgb(0, 133, 0);
+    position: relative;
+    margin-top: 3px;
+    margin-bottom: 25px;
+    margin-left: 7%;
+}
+.bio-fuel img{
+    width: 162px;
+}
+.ul-items{
+    font-size: 20px;
+    padding-left: 98px;
+}
+.ul-items i{
+    font-size: 123px;
+}
+
+
+.bio-fuel2 img{
+    width: 163px;
+}
+
+/* MINERALS & ORES */
+
+/* Building material chemical */
+.green-lines6 {
+    display: block;
+    width: 22%;
+    background-color: rgb(0, 133, 0);
+    position: relative;
+    margin-top: 3px;
+    margin-bottom: 25px;
+    margin-left: 8%;
+}
+.bio-fuel3 img{
+   width: 123px;
+   height: 123px;
+   margin-top:50px;
+}
+.bio-fuel4 img{
+    width: 140px;
+    height: 123px;
+    margin-top: 85px
+}
+.paragraph-set1 p{
+    margin: auto;
+    padding-left: 32px;
+}
+/* .flower-img4{
+      position: absolute;
+      left: 973px;
+} */
+
+.flower-img4 img{
+    width: 143px;
+     /* margin-top: -42px; */
+     position: relative;
+     top: -43px;
+    
+}
+/* Building material chemical */
+/* procedure */
+ .float-img img{
+    width: 270px;
+    margin-left: 202px;
+    margin-top: 40px;
+ }
+
+ #sectionfirst p{
+    position:relative;
+    top: 23px;
+    left: 70px;
+ }
+ .center-text h2{
+    font-size: 47px;
+    line-height: 32px;
+    font-weight: 700;
+    color:#137E02;
+     margin-left: 423px;
+ }
+
+ .green-lines7 {
+    display: block;
+    width: 37%;
+    background-color:rgb(240, 166, 30);
+    position: relative;
+    left: 473px;
+    margin-top: 23px;
+}
+
+#sectionsecond p{
+    position:relative;
+    top: -19px;
+    left: -104px;
+    float: left;
+    width: 412px;
+ }
+.text-europe h3{
+   position: relative;
+    left: -162px;
+    top: 37px;
+    font-weight: 900;
+    font-size: 29px;
+    color: gray;
+    float: left;
+}
+
+#sectionthird p{
+    position:relative;
+    top: -199px;
+    left: -14px;
+    float: right;
+    width: 412px;
+ }
+.text-europe1 h3{
+   position: relative;
+    left: 130px;
+    top: -106px;
+    font-weight: 900;
+    font-size: 29px;
+    color: gray;
+    float: left;
+}
+
+.text-europe2 h3{
+    position: relative;
+     left:  420px;
+     top:  18px;
+     font-weight: 900;
+     font-size: 29px;
+     color: gray;
+     float: left;
+ }
+
+ .text-europe3 h3{
+    position: relative;
+     left:  420px;
+     top:  -6px;
+     font-weight: 900;
+     font-size: 29px;
+     color: gray;
+     float: left;
+ }
+
+ #sectionfour p{
+    position:relative;
+    top:  -141px;
+    left: -557px;
+    float: right;
+    width: 412px;
+    margin-left: 164px;
+ }
+ #sectionfive p{
+   position:relative;
+    top:  -7px;
+    left: 380px;
+    float: right;
+ }
+
+ .text-europe4 h3{
+    position: relative;
+     left:  65vw;
+     top:  -26vw;
+     font-weight: 900;
+     font-size: 29px;
+     color: gray;
+     float: left;
+ }
+ #sectionsix p{
+    position:relative;
+    top:    -23vw;
+    left:   45vw;
+    float: right;
+    width: 412px;
+    margin-left: 164px;
+    width: 158px;
+ }
+ .set-image img{
+    width: 223px;
+    max-width: 62%;
+    height: 183px;
+    position: relative;
+    top: -47vw;
+    left: 185px;
+ }
+
+ .set-image1 img{
+    width: 223px;
+    max-width: 62%;
+    height: 147px;
+    position: relative;
+    top: -47vw;
+    left: 183px;
+
+    
+ }
+
+/* procedure */
+
+/* trading portfolio */
+.trading-portfolio img{
+    width: 100%;
+}
+ 
+.set-paragraph{
+    /* margin-left: 110px;
+    margin-right: 143px;
+    text-align: justify; */
+    height: 90%;
+    width: 97%;
+}
+
+.sectionHeading{
+    margin: 1rem 0;
+    font-weight: normal;
+    font-size: 24px;
+    position:relative;
+    padding: 6px 0px 6px 30px;
+    display: flow-root;
+}
+
+.section-paragraphLeft{
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 30px;
+}
+.section-paragraphRight{
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 10px;
+}
+
+.adjust-text h2{
+    margin-left: 65px;
+    margin-top: 63px;
+    font-weight: 800;
+    color: gray;
+}
+.floatting-point{
+    float: right;
+    position: relative;
+    margin-left: 35vw;
+}
+
+.floatting-point{
+ margin-top: -345px;
+}
+
+.text-left{
+    font-size: 23px;
+    font-weight:800;
+    color: gray;
+}
+.digital-background{
+       width: 100%;
+       height: 800px;
+       background-image: url('/media/image-and-png/digital_background.png');
+       background-size: cover;
+       background-repeat:no-repeat;
+       margin-right: 283px;
+       height: 625px;
+        
+}
+
+#inside-background{
+  position: relative;
+  top: 123px;
+  display: block;
+}
+
+#inside-background h3{
+ font-size: 63px;
+ font-weight: 900;
+ line-height: 42px;
+ line-break: auto;
+ line-clamp:initial;
+ margin-left: 79px;
+}
+
+.paragraph-style p {
+    color: #fff;
+    font-size: 27px;
+    position: relative;
+    top: 143px;
+    margin-left: 102px;
+    margin-right: 123px;
+    text-align: justify;
+}
+.paragraph-style span{
+    font-size: 62px;
+}
+.middle-distillates{
+    position: relative;
+    top: 173px;
+    width: 400px;
+    height: 360px;
+    text-align: justify;
+    left: 123px;
+    background:rgba(30, 29, 88, 0.644);
+    padding: 23px;
+}
+.middle-distillates ,h3,.paragraph-color{
+    color: #fff;
+}
+
+.set-paragraph3{
+    float: right;
+    width: 605px;
+    margin-right: 103px;
+    background:rgba(24, 23, 126, 0.589);
+    margin-top: -187px;
+    padding: 23px;
+    position: relative;
+    left: 8%;
+    
+}
+.set-paragraph4 p{
+    margin-left: 693px;
+    margin-top: -2%;
+    width: 523px;
+}
+.flower-img5 img {
+    width: 128px;
+    /* margin-top: -49px; */
+    vertical-align: bottom;
+    margin-top: 68px;
+}
+
+
+
+/* .card-text-content{
+    margin-left: 92%;
+    margin-top: -44%
+} */
+
+/* #sectionsseven h2{
+    position: relative;
+    left: 503px;
+    top: 45px;
+    margin-top: -483px;
+
+} */
+
+/* trading portfolio */
+
+/* fuel page */
+#fuel-paragraph1 h4{
+    color: gray;
+    font-weight: 900;
+    line-height: 23px;
+    margin-left: 213px;
+}
+
+#fuel-paragraph1 p{
+    position: relative;
+    left: 212px;
+}
+
+#fuel-paragraph2 h4{
+    color: gray;
+    font-weight: 900;
+    line-height: 23px;
+    margin-left: 55vw;
+    margin-top: -323px;
+}
+#fuel-paragraph2 p{
+    position: relative;
+    left: 212px;
+    margin-left: 623px;
+    width: 423px;
+}
+
+
+#fuel-paragraph3 h4{
+    color: gray;
+    font-weight: 900;
+    line-height: 23px;
+    margin-left: 213px;
+    margin-top: -123px;
+}
+
+#fuel-paragraph3 p{
+    position: relative;
+    left: 212px;
+}
+
+#fuel-paragraph4 h4{
+    color: gray;
+    font-weight: 900;
+    line-height: 23px;
+    margin-left: 60vw;
+    margin-top: -323px;
+}
+#fuel-paragraph4 p{
+    position: relative;
+    left: 212px;
+    margin-left: 700px;
+    width: 423px;
+}
+#fuel-paragraph5 h4{
+    color: gray;
+    font-weight: 900;
+    line-height: 23px;
+    margin-left: 213px;
+    margin-top: -123px;
+}
+
+#fuel-paragraph5 p{
+    position: relative;
+    left: 212px;
+}
+
+#fuel-paragraph6 h4{
+    color: gray;
+    font-weight: 900;
+    line-height: 23px;
+    margin-left: 60vw;
+    margin-top: -350px;
+}
+#fuel-paragraph6 p{
+    position: relative;
+    left: 212px;
+    margin-left: 700px;
+    width: 423px;
+}
+#fuel-paragraph7 h4{
+    color: gray;
+    font-weight: 900;
+    line-height: 23px;
+    margin-left: 213px;
+    margin-top: -123px;
+}
+
+#fuel-paragraph7 p{
+    position: relative;
+    left: 212px;
+}
+
+#fuel-paragraph8 h4 {
+    color: gray;
+    font-weight: 900;
+    line-height: 23px;
+    margin-left: 213px;
+    margin-top: -123px;
+}
+#fuel-paragraph8 p{
+    position: relative;
+    left: 212px;
+}
+
+#fuel-paragraph9 h4 {
+    color: gray;
+    font-weight: 900;
+    line-height: 23px;
+    margin-left: 213px;
+    margin-top: -123px;
+}
+#fuel-paragraph9 p{
+    position: relative;
+    left: 212px;
+}
+#fuel-paragraph9 h4 {
+    color: gray;
+    font-weight: 900;
+    line-height: 23px;
+    margin-left: 213px;
+    margin-top: -123px;
+}
+#fuel-paragraph10 p{
+    position: relative;
+    left: 212px;
+}
+.horizontal-lines span{
+    width: 10%;
+    height: 13px;
+    position: absolute;
+    color: red;
+
+}
+.red-lines{
+    width: 72px;
+    height: 3px;
+    position: absolute;
+    left: 249px;
+    top: 100%;
+ background-color: rgb(224, 26, 26);
+}
+
+.red-lines1{
+    width: 72px;
+    height: 3px;
+    position: absolute;
+    left: 249px;
+    top:70vw;
+   background-color: rgb(224, 26, 26);
+}
+
+.red-lines2{
+    width: 75px;
+    height: 3px;
+    position: absolute;
+    left: 249px;
+    top:92vw;
+   background-color: rgb(224, 26, 26);
+}
+
+.red-lines3{
+    width: 75px;
+    height: 3px;
+    position: absolute;
+    left: 249px;
+    top:126vw;
+   background-color: rgb(224, 26, 26);
+}
+
+.red-lines4{
+    width: 75px;
+    height: 3px;
+    position: absolute;
+    left: 249px;
+    top:111vw;
+   background-color: rgb(224, 26, 26);
+}
+
+.red-lines5{
+    width: 75px;
+    height: 3px;
+    position: absolute;
+    left: 739px;
+    top:111vw;
+   background-color: rgb(224, 26, 26);
+}
+/* fuel page */
