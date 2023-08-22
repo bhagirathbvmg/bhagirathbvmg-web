@@ -11,11 +11,21 @@ body {
     ;
 }
 
+.top-side{
+    margin-top: -29px;
+}
 .slide-set{
     width: 100%;
     height: 100%;
     position: relative;
-    top: 123px;
+    top: 133px;
+}
+
+.headerLogo img{
+    width: 113px;
+    margin-left: 50px;
+    overflow: auto;
+    margin-top: 8px;
 }
 
 /* header section */
@@ -23,11 +33,23 @@ body {
     color: #137E02;
 }
 
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
 .shadows {
     box-shadow: 2px 1px 12px black;
 }
 
 /* header section */
+/* main-section */
+#farm_img img{
+    width: 100%;
+    height: 55vw;
+}
+
+/* main-section */
 /* footer section */
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -68,26 +90,78 @@ body {
     left: 590px;
     top: 48%;
 }
-
-.sec-title .decor-line1 {
-    width: 59px;
-    height: 5px;
-    position: absolute;
-    left: 67%;
-    top: 174%;
-    background: #137E02;
+.homestates{
+    width: 18rem;
+    height: 24vw;
+}
+.homestates img{
+    margin-top: 12px;
 }
 
-.sec-title-two .decor-line {
-    display: block;
-    width: 40%;
-    height: 4px;
-    background: #137E02;
-    position: relative;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 8px;
+.backround-change img{ 
+
+width: 123px;
+display: block;
+margin: auto;
+align-items: center;
+justify-content: center;
+margin-top: 12px;
 }
+
+.inner-image{
+    overflow: hidden;
+}
+.inner-image img{
+    margin-top: 123px;
+    width: 423px;
+    border-radius: 12px;
+    max-width: 100%;
+    transition: all 0.5s ease;
+}
+.inner-image:hover img{
+    transform: scale(1.1);
+}
+
+.outer-image{
+    display: inline;
+    z-index: 100;
+    margin-top: -23px;
+    position:absolute;
+    left: 272px;
+  
+}
+
+.text-adjustment{
+ position: relative;
+  left: -170px;
+}
+.text-adjustment h4{
+    font-size: 43px;
+}
+/* .backround-change :hover{
+    background-color:rgb(42, 186, 230);
+    color:rgb(2, 2, 2);
+} */
+
+
+.text-content{
+    line-break: strict;
+    word-wrap: none;
+    overflow: hidden;
+
+}
+.text-content h6{
+font-size: 32px;
+}
+
+.text-content h4{
+    font-weight: 900;
+    color: black;
+    padding: 12px;
+    font-size: 42px;
+    margin-top: 123px ;
+ }
+
 
 .social li:hover {
     color: #137E02;
@@ -123,14 +197,16 @@ body {
     margin-left: 65px;
 }
 
-.list-item-footer {
+.list-item-footer{
     font-size: 12px;
+    font-size: 57px;
     line-height: 29px;
-    list-style-type: none;
     text-align: left;
     font-size: 14px;
     color: #fff;
+    font-weight: 400;
 }
+
 
 .hr-lines {
     margin: 0px;
@@ -197,7 +273,7 @@ slider */
     height: 24rem;
 }
 
-.card {
+.border-shadow {
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -206,7 +282,7 @@ slider */
     box-shadow: 8px -3px 8px rgb(43, 39, 39);
 }
 
-.card:hover {
+.border-shadow:hover {
     transform: scale(0.9);
     cursor: pointer;
 }
@@ -215,20 +291,6 @@ slider */
 
 /* product & communitites page */
 
-.green-stylish span {
-    color: #137E02;
-}
-
-.green-line {
-    display: block;
-    width: 18%;
-    background-color: rgb(0, 133, 0);
-    position: relative;
-    margin-top: 3px;
-    margin-bottom: 25px;
-    margin-left: 8%;
-
-}
 
 .flower-img img {
     width: 128px;
@@ -246,15 +308,6 @@ slider */
 /* product & communitites page */
 
 /* Edible oil and Non edible oil */
-.green-lines1 {
-    display: block;
-    width: 36%;
-    background-color: rgb(0, 133, 0);
-    position: relative;
-    margin-top: 3px;
-    margin-bottom: 25px;
-    margin-left: 8%;
-}
 
 /* Edible oil and Non edible oil */
 
@@ -308,15 +361,6 @@ slider */
 
 
 /* Metals */
-.green-lines3 {
-    display: block;
-    width: 9%;
-    background-color: rgb(0, 133, 0);
-    position: relative;
-    margin-top: 3px;
-    margin-bottom: 25px;
-    margin-left: 8%;
-}
 
 .flower-img2 img {
     width: 128px;
@@ -328,15 +372,7 @@ slider */
 
 /* CATTLEFEED & FERTILIZER */
 }
-.green-line4 {
-    display: block;
-    width: 11%;
-    background-color: rgb(0, 133, 0);
-    position: relative;
-    margin-top: 3px;
-    margin-bottom: 25px;
-    margin-left: 7%;
-}
+
 .flower-img3 img {
     width: 128px;
     /* margin-top: -49px; */
@@ -430,12 +466,12 @@ slider */
 /* Building material chemical */
 .green-lines6 {
     display: block;
-    width: 22%;
+    width: 19%;
     background-color: rgb(0, 133, 0);
     position: relative;
     margin-top: 3px;
     margin-bottom: 25px;
-    margin-left: 8%;
+    margin-left: 7%;
 }
 .bio-fuel3 img{
    width: 123px;
