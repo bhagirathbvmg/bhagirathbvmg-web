@@ -11,6 +11,25 @@ body {
     ;
 }
 
+.style2{
+ display: block;
+ margin-left: 43px;
+ position: relative;
+ top: 123px;
+
+}
+
+.sec-title_tagline h5{
+    font-size: 24px;
+    margin-bottom: 23px;
+    overflow: hidden;
+}
+
+.sec-title_title{
+    font-size:23px;
+    width: 423px;
+    font-weight: 1000;
+}
 .top-side{
     margin-top: -29px;
 }
@@ -61,10 +80,15 @@ body {
     height: 520px;
 }
 
-#set_footer {
-    margin-top: 5vw;
-    border-radius: 3px;
-    height: 390px;
+#set_footer img {
+ display: block;
+ margin: 0px  48px auto;
+ justify-content: center;
+ align-items: center;
+}
+
+.image_set img{
+
 }
 
 .list-style {
@@ -109,7 +133,7 @@ margin-top: 12px;
 }
 
 .inner-image{
-    overflow: hidden;
+    overflow:inherit;
 }
 .inner-image img{
     margin-top: 123px;
@@ -131,11 +155,11 @@ margin-top: 12px;
   
 }
 
-.text-adjustment{
+.text-adjust{
  position: relative;
-  left: -170px;
+  left: -120px;
 }
-.text-adjustment h4{
+.text-adjust h4{
     font-size: 43px;
 }
 /* .backround-change :hover{
@@ -176,6 +200,7 @@ font-size: 32px;
     font-size: 12px;
     margin-left: -18px;
     text-align: justify;
+     width: 284px
 }
 
 #heading-style {
@@ -205,18 +230,16 @@ font-size: 32px;
     font-size: 14px;
     color: #fff;
     font-weight: 400;
+    position: relative;
+    top: 12px;
 }
 
-
-.hr-lines {
-    margin: 0px;
-}
 
 .copyright {
     float: left;
     margin-left: -1px;
     font-size: 12px;
-    margin-top: 1px;
+    margin-top: 15px;
 }
 
 .footer-bottom p {
@@ -651,136 +674,15 @@ slider */
     width: 97%;
 }
 
-.sectionHeading{
-    margin: 1rem 0;
-    font-weight: normal;
-    font-size: 24px;
-    position:relative;
-    padding: 6px 0px 6px 30px;
-    display: flow-root;
-}
-
-.section-paragraphLeft{
-    font-size: 16px;
-    text-align: justify;
-    padding-left: 30px;
-}
-.section-paragraphRight{
-    font-size: 16px;
-    text-align: justify;
-    padding-left: 10px;
-}
-
-.adjust-text h2{
-    margin-left: 65px;
-    margin-top: 63px;
-    font-weight: 800;
-    color: gray;
-}
-.floatting-point{
-    float: right;
-    position: relative;
-    margin-left: 35vw;
-}
-
-.floatting-point{
- margin-top: -345px;
-}
-
-.text-left{
-    font-size: 23px;
-    font-weight:800;
-    color: gray;
-}
-.digital-background{
-       width: 100%;
-       height: 800px;
-       background-image: url('/media/image-and-png/digital_background.png');
-       background-size: cover;
-       background-repeat:no-repeat;
-       margin-right: 283px;
-       height: 625px;
-        
-}
-
-#inside-background{
-  position: relative;
-  top: 123px;
-  display: block;
-}
-
-#inside-background h3{
- font-size: 63px;
- font-weight: 900;
- line-height: 42px;
- line-break: auto;
- line-clamp:initial;
- margin-left: 79px;
-}
-
-.paragraph-style p {
-    color: #fff;
-    font-size: 27px;
-    position: relative;
-    top: 143px;
-    margin-left: 102px;
-    margin-right: 123px;
-    text-align: justify;
-}
-.paragraph-style span{
-    font-size: 62px;
-}
-.middle-distillates{
-    position: relative;
-    top: 173px;
-    width: 400px;
-    height: 360px;
-    text-align: justify;
-    left: 123px;
-    background:rgba(30, 29, 88, 0.644);
-    padding: 23px;
-}
-.middle-distillates ,h3,.paragraph-color{
-    color: #fff;
-}
-
-.set-paragraph3{
-    float: right;
-    width: 605px;
-    margin-right: 103px;
-    background:rgba(24, 23, 126, 0.589);
-    margin-top: -187px;
-    padding: 23px;
-    position: relative;
-    left: 8%;
-    
-}
-.set-paragraph4 p{
-    margin-left: 693px;
-    margin-top: -2%;
-    width: 523px;
-}
-.flower-img5 img {
-    width: 128px;
-    /* margin-top: -49px; */
-    vertical-align: bottom;
-    margin-top: 68px;
+.background-grey{
+    font-size: 29px;
+    font-weight:900;
+    word-break: inherit;
+    white-space: 12px;
 }
 
 
 
-/* .card-text-content{
-    margin-left: 92%;
-    margin-top: -44%
-} */
-
-/* #sectionsseven h2{
-    position: relative;
-    left: 503px;
-    top: 45px;
-    margin-top: -483px;
-
-} */
 
 /* trading portfolio */
 
