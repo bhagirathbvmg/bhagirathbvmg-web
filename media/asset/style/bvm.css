@@ -534,6 +534,43 @@ slider */
     width: 623px;
 
 }
+
+.green-heading h4{
+    text-align: center;
+    font-size: 53px;
+    font-weight: 900;
+    color: rgba(164, 255, 29, 0.822);
+}
+
+ .color-grey h3 {
+    font-size: 32px;
+    font-weight: 900;
+    color: rgba(128, 128, 128, 0.959);
+ }
+
+ .image-set2 img{
+    width: 153px;
+    display: block;
+    padding: -62px;
+    position: relative;
+    left: 13px;
+    line-clamp:inherit;
+    overflow: inherit;
+    width: 223px;
+    height: 223px;
+ }
+
+ .image-set3 img{
+    width: 153px;
+    display: block;
+    padding: -62px;
+    position: relative;
+    left: 13px;
+    line-clamp:inherit;
+    overflow: inherit;
+    width: 223px;
+    height: 223px;
+ }
 /* procedure */
 
 /* trading portfolio */
