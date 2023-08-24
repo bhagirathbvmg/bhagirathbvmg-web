@@ -20,15 +20,21 @@ body {
 }
 
 .sec-title_tagline h5{
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 23px;
     overflow: hidden;
+    position: relative;
+    left: 100px;
+    color: #137E02;
 }
 
 .sec-title_title{
-    font-size:23px;
-    width: 423px;
-    font-weight: 1000;
+    font-size:40px;
+    width: 493px;
+    font-weight: 700;
+    margin-top: 22px;
+    position: relative;
+    left: 100px;
 }
 .top-side{
     margin-top: -29px;
@@ -150,9 +156,17 @@ margin-top: 12px;
     display: inline;
     z-index: 100;
     margin-top: -23px;
-    position:absolute;
-    left: 272px;
+    margin: auto;  
+    position: relative;
+    left: 172px;
+    top: -42px;
   
+}
+.outer-image img{
+    visibility: visible;
+    animation-duration: 35000ms;
+    animation-delay: 100ms;
+    animation-name: zoom in;
 }
 
 .text-adjust{
@@ -183,9 +197,14 @@ font-size: 32px;
     color: black;
     padding: 12px;
     font-size: 42px;
-    margin-top: 123px ;
+    margin-top: 23px ;
+    margin-bottom: -23px;
  }
-
+.paragraph-setting p{
+    font-size: 43px;
+    padding: 22px;
+    color: white;
+}
 
 .social li:hover {
     color: #137E02;
@@ -223,7 +242,6 @@ font-size: 32px;
 }
 
 .list-item-footer{
-    font-size: 12px;
     font-size: 57px;
     line-height: 29px;
     text-align: left;
@@ -232,6 +250,11 @@ font-size: 32px;
     font-weight: 400;
     position: relative;
     top: 12px;
+}
+
+.list-item-footer li a{
+    text-decoration-line: none;
+    color: white;
 }
 
 
@@ -315,12 +338,7 @@ slider */
 /* product & communitites page */
 
 
-.flower-img img {
-    width: 128px;
-    /* margin-top: -49px; */
-    vertical-align: bottom;
-    margin-top: 558px;
-}
+
 
 .green-border {
     /* width: 25%; */
@@ -373,36 +391,19 @@ slider */
     margin-left: 7%;
 }
 
-.flower-img1 img {
-    width: 128px;
-    /* margin-top: -49px; */
-    vertical-align: bottom;
-    margin-top: 829px;
-}
+
 /* Bio fuel */
 /* Metals */
 
 
 /* Metals */
 
-.flower-img2 img {
-    width: 128px;
-    /* margin-top: -49px; */
-    vertical-align: bottom;
-    margin-top: 534px;
 /* Metals */
 
 
 /* CATTLEFEED & FERTILIZER */
-}
 
-.flower-img3 img {
-    width: 128px;
-    /* margin-top: -49px; */
-    vertical-align: bottom;
-    margin-top: -47px;
-    margin-left: 92vw;
-}
+
 
 .text-lines4  h6{
     margin-left: 290px;
@@ -515,150 +516,24 @@ slider */
       left: 973px;
 } */
 
-.flower-img4 img{
-    width: 143px;
-     /* margin-top: -42px; */
-     position: relative;
-     top: -43px;
-    
-}
 /* Building material chemical */
 /* procedure */
- .float-img img{
-    width: 270px;
-    margin-left: 202px;
-    margin-top: 40px;
- }
 
- #sectionfirst p{
-    position:relative;
-    top: 23px;
-    left: 70px;
- }
- .center-text h2{
-    font-size: 47px;
-    line-height: 32px;
-    font-weight: 700;
-    color:#137E02;
-     margin-left: 423px;
- }
 
- .green-lines7 {
-    display: block;
-    width: 37%;
-    background-color:rgb(240, 166, 30);
+.image-set1 img{
+    width: 323px;
     position: relative;
-    left: 473px;
-    margin-top: 23px;
+    top: 73px;
+    left: 12px;
+    height: 423px;
+    overflow:inherit;
 }
 
-#sectionsecond p{
-    position:relative;
-    top: -19px;
-    left: -104px;
-    float: left;
-    width: 412px;
- }
-.text-europe h3{
-   position: relative;
-    left: -162px;
-    top: 37px;
-    font-weight: 900;
-    font-size: 29px;
-    color: gray;
-    float: left;
+.section-heading p{
+    float: right;
+    width: 623px;
+
 }
-
-#sectionthird p{
-    position:relative;
-    top: -199px;
-    left: -14px;
-    float: right;
-    width: 412px;
- }
-.text-europe1 h3{
-   position: relative;
-    left: 130px;
-    top: -106px;
-    font-weight: 900;
-    font-size: 29px;
-    color: gray;
-    float: left;
-}
-
-.text-europe2 h3{
-    position: relative;
-     left:  420px;
-     top:  18px;
-     font-weight: 900;
-     font-size: 29px;
-     color: gray;
-     float: left;
- }
-
- .text-europe3 h3{
-    position: relative;
-     left:  420px;
-     top:  -6px;
-     font-weight: 900;
-     font-size: 29px;
-     color: gray;
-     float: left;
- }
-
- #sectionfour p{
-    position:relative;
-    top:  -141px;
-    left: -557px;
-    float: right;
-    width: 412px;
-    margin-left: 164px;
- }
- #sectionfive p{
-   position:relative;
-    top:  -7px;
-    left: 380px;
-    float: right;
- }
-
- .text-europe4 h3{
-    position: relative;
-     left:  65vw;
-     top:  -26vw;
-     font-weight: 900;
-     font-size: 29px;
-     color: gray;
-     float: left;
- }
- #sectionsix p{
-    position:relative;
-    top:    -23vw;
-    left:   45vw;
-    float: right;
-    width: 412px;
-    margin-left: 164px;
-    width: 158px;
- }
- .set-image img{
-    width: 223px;
-    max-width: 62%;
-    height: 183px;
-    position: relative;
-    top: -47vw;
-    left: 185px;
- }
-
- .set-image1 img{
-    width: 223px;
-    max-width: 62%;
-    height: 147px;
-    position: relative;
-    top: -47vw;
-    left: 183px;
-
-    
- }
-
 /* procedure */
 
 /* trading portfolio */
@@ -674,16 +549,54 @@ slider */
     width: 97%;
 }
 
-.background-grey{
+.color-white{
     font-size: 29px;
     font-weight:900;
     word-break: inherit;
     white-space: 12px;
 }
 
+.grey-color-style{
+    font-size: 29px;
+    color: rgb(128, 128, 128);
+    font-weight: 900;
+}
 
+.images-background{
+    background-image: url('/media/image-and-png/digital_background.png');
+    background-size: cover;
+    size: 100%;
+    min-height: 60vw;
+    height: 80vw;
+    position: relative;
+    width: 100%;
+    display: block;
+    transform: scale(-50% -50%);
+}
 
+.images-background h3{
+    padding: 103px;
+    font-size: 43px;
+    font-weight: 900;
+    color: white;
+    line-height: 7%;
+    overflow: inherit;
+    word-wrap: normal;
+}
+.images-background h5{
+    padding: 103px;
+    font-size: 43px;
+    color: rgb(25, 141, 236);
+    font-weight: 900;
+    overflow: inherit;
+    word-wrap: normal;
+    margin-top: -189px;
+    
+}
+.Style-witdh{
 
+    background-color: rgba(109, 109, 109, 0.932)
+}
 /* trading portfolio */
 
 /* fuel page */
