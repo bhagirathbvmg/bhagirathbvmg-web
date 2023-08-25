@@ -53,6 +53,12 @@ body {
     margin-top: 8px;
 }
 
+.fixed-top {
+    top: -14px;
+    transform: translateY(14px);
+    transition: transform .3s;
+}
+
 /* header section */
 #navbarNav ul li a:hover {
     color: #137E02;
