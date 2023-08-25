@@ -197,9 +197,10 @@ font-size: 32px;
     color: black;
     padding: 12px;
     font-size: 42px;
-    margin-top: 23px ;
-    margin-bottom: -23px;
+    margin-top: 73px ;
+    margin-bottom: -53px;
  }
+ .bg-gray{background:#ffffff;}
 .paragraph-setting p{
     font-size: 43px;
     padding: 22px;
@@ -216,10 +217,11 @@ font-size: 32px;
 }
 
 .paragraph_set {
-    font-size: 12px;
+    font-size: 20px;
     margin-left: -18px;
     text-align: justify;
-     width: 284px
+     width: 284px;
+     font-weight: lighter;
 }
 
 #heading-style {
@@ -242,12 +244,11 @@ font-size: 32px;
 }
 
 .list-item-footer{
-    font-size: 57px;
-    line-height: 29px;
+    line-height: 35px;
     text-align: left;
-    font-size: 14px;
+    font-size: 20px;
     color: #fff;
-    font-weight: 400;
+    font-weight:lighter;
     position: relative;
     top: 12px;
 }
@@ -313,9 +314,9 @@ slider */
 
 .Agriculture-image img {
     margin-top: 21px;
-    margin-left: 48px;
-    width: 93%;
-    border: 4px solid #137E02;
+    /* margin-left: 48px; */
+    width: 100%;
+    /* border: 4px solid #137E02; */
     height: 24rem;
 }
 
@@ -355,43 +356,91 @@ slider */
 /* Bio fuel */
 
 
-.bio-fuels img{
-   width: 123px;
-   margin-left: 83px;
-   margin-top:-68vw;
+.bio-fuel-image{
+    width: 200px;
+    margin-left: -63px;
 }
 
-#fuel-paragraph11 h4 {
-    color: gray;
-    font-weight: 900;
-    line-height: 23px;
-    margin-left: 103px;
-    margin-top:  213px;
+.heading {
+    border-left: 5px solid #137E02;
+    font-size: 28px;
+    /* color: #fff; */
+    padding-left: 10px;
 }
-#fuel-paragraph11 p{
-    position: relative;
-    left: 105px;
+.section{padding:2rem 0;}
+.section-paragraphLeft {
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 15px;
 }
-.red-lines6{
-    width: 75px;
-    height: 3px;
+
+ul{
+    list-style: none;
+}
+.navmenu
+{
     position: absolute;
-    left: 139px;
-    top: 44vw;
-   background-color: rgb(224, 26, 26);
-}
-
-.green-lines2 {
+    top: 22%;
+    transform: translateY(-40%);
     display: block;
-    width: 7%;
-    background-color: rgb(0, 133, 0);
-    position: relative;
-    margin-top: 3px;
-    margin-bottom: 25px;
-    margin-left: 7%;
+    overflow-x: inherit;
+    overflow-y: inherit;
+    margin-bottom:123px;
+
+ 
 }
 
+.navmenu ul {
+    padding-left: 180px;
+    position: relative;
+}
 
+.navmenu ul::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: calc(85% - 40px);
+    left: 170px;
+    top: 0;
+    background-color: green;
+    z-index: -1;
+    margin-top: 29px;
+}
+
+.navmenu ul li{
+    padding: 17px 0;
+    padding-left: 20px;
+}
+.navmenu ul li a
+{
+    text-decoration: none;
+    position: relative;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-size: 500;
+    color: black;
+    font-size: 20px;
+}
+
+.navmenu ul li a::before{
+    content: "";
+    position: absolute;
+    background: green;
+    width: 10px;
+    height: 10px;
+    left: -34px;
+    top: 40%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+
+.navmenu ul li a.active{
+    font-weight: 500px;
+}
+
+.navmenu ul li a.active::before{
+    background: green;
+}
 /* Bio fuel */
 /* Metals */
 
@@ -405,57 +454,156 @@ slider */
 
 
 
-.text-lines4  h6{
-    margin-left: 290px;
-    position: relative;
-    top: -176px;
-}
-.radio-buttons1 div {
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    border: 5px solid green;
-    position: relative;
-    left: 47px;
 
-}
-.radio-buttons1 input[type="radio"] {
-    display: none;
-}
-.items-list li{
-    padding: 12px;
-}
-.items-list ul li{
-    position: relative;
-    left: 253px;
-    top: 143px;
-    list-style: none;
+/* CATTLEFEED & FERTILIZER */
+.chemical-image{
+    width: 200px;
+    padding-top: 123px;
+    margin-left: 33px;
 }
 
-.fertilizer img{
-    width: 153px;
-    margin-left: 25px;
-    margin-top: 44px;
-}
-
-.green-line6 {
+.navmenu1
+{
+    position: absolute;
+    top: 22%;
+    transform: translateY(-40%);
     display: block;
-    width: 11%;
-    background-color: rgb(0, 133, 0);
-    position: relative;
-    top: -188px;
-    margin-bottom: 25px;
-    margin-left: 7%;
+    overflow-x: inherit;
+    overflow-y: inherit;
+    margin-bottom:123px;
+
+ 
 }
-.fertilizer-item{
+
+.navmenu1 ul {
+    padding-left: 340px;
     position: relative;
-    left: 173px;
-    top:-184px;
 }
-.fertilizer-item ul li{
-    list-style: none;
-    padding: 5px;
-    
+
+.navmenu1 ul::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: calc(95% - 40px);
+    left: 330px;
+    top: 0;
+    background-color: green;
+    z-index: -1;
+    margin-top: 29px;
+}
+
+.navmenu1 ul li{
+    padding: 17px 0;
+    padding-left: 20px;
+}
+.navmenu1 ul li a
+{
+    text-decoration: none;
+    position: relative;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-size: 500;
+    color: black;
+    font-size: 15px;
+}
+
+.navmenu1 ul li a::before{
+    content: "";
+    position: absolute;
+    background: green;
+    width: 10px;
+    height: 10px;
+    left: -34px;
+    top: 40%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+
+.navmenu1 ul li a.active{
+    font-weight: 500px;
+}
+
+.navmenu1 ul li a.active::before{
+    background: green;
+}
+
+
+
+
+.chemical-image{
+    width: 200px;
+    padding-top: 123px;
+    margin-left: 33px;
+}
+
+.navmenu2
+{
+    position: absolute;
+    top: 22%;
+    transform: translateY(-40%);
+    display: block;
+    overflow-x: inherit;
+    overflow-y: inherit;
+    margin-bottom:123px;
+
+ 
+}
+
+.navmenu2 ul {
+    padding-left: 340px;
+    position: relative;
+}
+
+/* .navmenu2 ul::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: calc(95% - 40px);
+    left: 330px;
+    top: 0;
+    background-color: green;
+    z-index: -1;
+    margin-top: 29px;
+} */
+
+.cattlefeed-image {
+    width: 200px;
+    padding-top: 123px;
+    margin-left: 33px;
+}
+.navmenu2 ul li{
+    padding: 17px 0;
+    padding-left: 0px;
+}
+.navmenu2 ul li a
+{
+    text-decoration: none;
+    position: relative;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-size: 500;
+    color: black;
+    font-size: 15px;
+}
+
+.navmenu2 ul li a::before{
+    content: "";
+    position: absolute;
+    background: green;
+    width: 10px;
+    height: 10px;
+    left: -24px;
+    top: 10%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+
+.navmenu2 ul li a.active{
+    font-weight: 500px;
+}
+
+.navmenu2 ul li a.active::before{
+    background: green;
 }
 /* CATTLEFEED & FERTILIZER */
 
