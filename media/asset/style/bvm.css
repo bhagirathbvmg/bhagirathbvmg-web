@@ -54,8 +54,8 @@ body {
 }
 
 .fixed-top {
-    top: -14px;
-    transform: translateY(14px);
+    top: -12px;
+    transform: translateY(1px);
     transition: transform .3s;
 }
 
@@ -228,6 +228,7 @@ font-size: 32px;
     text-align: justify;
      width: 284px;
      font-weight: lighter;
+     display: block;
 }
 
 #heading-style {
