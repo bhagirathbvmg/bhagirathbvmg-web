@@ -8,7 +8,7 @@ body {
     background-image: url('/media/image-and-png/backgroundimg.png');
     background-repeat: no-repeat;
     background-position: 20%;
-    ;
+    
 }
 
 .style2{
@@ -40,7 +40,7 @@ body {
     margin-top: 22px;
     position: relative;
     left: 100px;
-    display:contents;
+    display:"content";
     overflow: inherit;
 }
 .top-side{
@@ -766,3 +766,29 @@ ul{
    background-color: rgb(224, 26, 26);
 }
 /* fuel page */
+
+.background-image-set img{
+    background-position: 100%;
+    min-width: 100%;
+    background-size:cover;
+    overflow:auto;
+    background-repeat: no-repeat;;
+}
+
+.contactus-img img{
+    display: block;
+    margin: auto;
+    position: relative;
+     margin-top: -43rem;
+     top: -23rem;
+     justify-content: center;
+     align-items: center;
+     left: 193px;
+}
+
+.contactus-heading h3{
+    text-align: center;
+    padding-left: 223px;
+     position: relative;
+     top: -349px;
+}
