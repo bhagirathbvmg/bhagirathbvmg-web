@@ -40,6 +40,8 @@ body {
     margin-top: 22px;
     position: relative;
     left: 100px;
+    display:contents;
+    overflow: inherit;
 }
 .top-side{
     margin-top: -29px;
