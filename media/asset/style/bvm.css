@@ -68,7 +68,7 @@ body {
 
 /* header section */
 #navbarNav ul li a:hover {
-    color: #137E02;
+    color: #2fa3f6;
 }
 
 .navbar{
@@ -215,7 +215,7 @@ font-size: 32px;
     margin-bottom: -53px;
  }
  
- .bg-gray{background:#ffffff;}
+ .bg-gray{background:rgba(255, 255, 2550, 0)}
  /* .bgContactUs-gray{background:rgba(255, 255, 255, 0.678);} */
 .paragraph-setting p{
     font-size: 43px;
@@ -224,7 +224,7 @@ font-size: 32px;
 }
 
 .social li:hover {
-    color: #137E02;
+    color: #2fa3f6;
     transition: 1s;
 }
 
@@ -267,12 +267,17 @@ font-size: 32px;
     color: #fff;
     font-weight:lighter;
     position: relative;
-    top: 12px;
+    top: 123px;
+    margin-top: 123px;
 }
 
 .list-item-footer li a{
     text-decoration-line: none;
     color: white;
+}
+
+.list-item-footer li a:hover{
+    color:#2fa3f6;
 }
 
 
@@ -334,7 +339,7 @@ slider */
     /* margin-left: 48px; */
     width: 100%;
     /* border: 4px solid #137E02; */
-    height: 24rem;
+    height:37rem;
 }
 
 .border-shadow {
@@ -433,7 +438,7 @@ ul{
 }
 
 .cattlefeed1 li {
-    padding: 12px;
+    padding: 7px;
 }
 
 /* CATTLEFEED & FERTILIZER */
@@ -443,9 +448,10 @@ ul{
     margin-top: 90px;
     margin-left: -30px;
     font-size: 22px;
+    
 }
 .minerals-items li{
-    padding: 12px;
+    padding: 4px;
 }
 /* MINERALS & ORES */
 
@@ -768,3 +774,56 @@ ul{
    background-color: rgb(224, 26, 26);
 }
 /* fuel page */
+.contact-us{
+   margin-top: 10%;
+  width: 60%;
+  position: relative;
+  border-radius: 0;
+}
+.contact-row{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.contact-col{
+    padding: 20px;
+    background-color:#fff;
+}
+.contact-col input{
+    width: 82%;
+}
+
+.contact-col input{
+    width: 82%;
+    border: 1px solid black;
+}
+
+.contact-col textarea{
+    border: 1px solid black;
+    width: 82%;
+}
+.contact-set{
+padding: 20px;
+color:white;
+}
+.form-control{
+    height: 52px;
+    background-color: #ffff;
+    color: #000;
+    font-size: 14px;
+    border-radius: 2px;
+    box-sizing: none;
+    border:  1px solid rgba(0, 0, 0, 0.1);
+}
+.bi{
+    font-size: 23px;
+    padding: 12px;
+    margin-top: 22px;
+
+}
+.font-styelish p {
+    font-size: 20px;
+    padding: 12px;
+    margin-top: 22px;
+    padding-left: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
