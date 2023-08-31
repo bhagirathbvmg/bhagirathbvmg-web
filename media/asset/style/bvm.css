@@ -43,9 +43,14 @@ body {
     font-weight: 700;
     margin-top: 22px;
     position: relative;
-    left: 100px;
+    left: 100px ;
     display:"content";
-    overflow: inherit;
+    margin-left: -113px;
+    line-break: strict;
+    word-wrap: none;
+    overflow: hidden;
+    
+
 }
 .top-side{
     margin-top: -29px;
@@ -160,6 +165,7 @@ margin-top: 12px;
 
 .inner-image{
     overflow:inherit;
+    margin-left: -123px;
 }
 .inner-image img{
     margin-top: 123px;
@@ -178,7 +184,7 @@ margin-top: 12px;
     margin-top: -23px;
     margin: auto;  
     position: relative;
-    left: 172px;
+    left: 132px;
     top: -42px;
   
 }
@@ -447,7 +453,7 @@ ul{
 .cattlefeed1{
     margin-top: 90px;
     margin-left: -30px;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .cattlefeed1 li {
