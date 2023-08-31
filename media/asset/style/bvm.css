@@ -32,6 +32,10 @@ body {
     left: 100px;
     color: #137E02;
 }
+.sec-title_tagline{
+    word-wrap: normal;
+    overflow-wrap: break-word;;
+}
 
 .sec-title_title{
     font-size:40px;
@@ -70,6 +74,8 @@ body {
 #navbarNav ul li a:hover {
     color: #2fa3f6;
 }
+
+
 
 .navbar{
     position: fixed;
@@ -288,6 +294,13 @@ font-size: 32px;
     margin-top: 15px;
 }
 
+.copy-text{
+ margin-top: 10px;
+ margin-left: 23px;
+}
+.hr-line{
+    margin-top: 423px;
+}
 .footer-bottom p {
     float: left;
     margin-left: -34px;
@@ -453,6 +466,7 @@ ul{
 .minerals-items li{
     padding: 4px;
 }
+
 /* MINERALS & ORES */
 
 /* Building material chemical */
