@@ -45,7 +45,6 @@ body {
     position: relative;
     left: 100px ;
     display:"content";
-    margin-left: -113px;
     line-break: strict;
     word-wrap: none;
     overflow: hidden;
@@ -167,7 +166,7 @@ margin-top: 12px;
 
 .inner-image{
     overflow:inherit;
-    margin-left: -123px;
+    margin-left: 23px;
 }
 .inner-image img{
     margin-top: 123px;
