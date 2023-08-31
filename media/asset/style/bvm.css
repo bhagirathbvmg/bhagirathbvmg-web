@@ -61,7 +61,9 @@ body {
     position: relative;
     top: 133px;
 }
-
+.headerLogo{
+    box-shadow: 1px 3px 12px black;
+}
 .headerLogo img{
     width: 113px;
     margin-left: 50px;
