@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
   <link rel="stylesheet" href="media/asset/style/bvm.css" />
   <link rel="stylesheet" href="media/assets/fontawesome-free-6.4.0-web/css/all.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,9 +20,8 @@
   <!-- header -->
   <div class="headerdiv"></div>
   <!-- content -->
-  <main class="overflow-hidden">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel" style="position: relative;
-top: 99px; width: 100%;">
+  <main role="main" class="main">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
       <div class="carousel-indicators text-white">
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -34,7 +34,7 @@ top: 99px; width: 100%;">
           <img src="media/image-and-png/Agriculture-Products.jpg" class="d-block w-100 " alt="..."
             style="height: 35vw;">
           <div class="carousel-caption d-none d-md-block text-white" style="background-color: rgba(0, 0, 0, 0.719);">
-            <h5 style="font-size: 25px;">AGRO PRDUCTS</h5>
+            <h5 style="font-size: 25px;">AGRO PRODUCTS</h5>
             <!-- <p>Some representative placeholder content for the first slide.</p> -->
           </div>
         </div>
@@ -71,72 +71,81 @@ top: 99px; width: 100%;">
       </button>
     </div>
 
-    <div class="container ">
-      <div class="text-content1 mt-5">
-        <h2 class="text-center mb-3">Welcome To Bhagirath</h2>
-        <div class="text-content2">
-          <h1>
-            We provide worldwide,independent services <br />that make a difference<br /> in people lives.
-          </h1>
-        </div>
-      </div>
-    </div>
+    
+          <div class="container">
+
+            <h3 class="text-content-bold text-center mb-3" style="color: green">Welcome To Bhagirath</h3>
+            <h2 class="text-content-bold text-center mb-3">We provide worldwide,independent services that make a difference in people lives.</h2>
+
+          </div>
 
 
-      <!-- We provide worldwide, independent services that make a difference in people lives. -->
+    <!-- We provide worldwide, independent services that make a difference in people lives. -->
 
 
-      <section class="section-part">
-        <div class="backround-images" style="background-image: url(/media/image-and-png/TradeCommodities.jpg);">
+    <section class="section-part ">
 
-          <div class="background-filter">
-            <div class="text-content">
+      <div class="backround-images" style="background-image: url(/media/image-and-png/TradeCommodities.jpg);">
 
-              <h3 class="text-center mb-3">Our Products</h3>
-              <h2 class="text-center mb-3">We Provide Best Product</h2>
+        <div class="background-filter">
+          <div class="text-content">
 
-            </div>
-            <div class="row" style="padding: 20px;">
-              <!-- <div class="col-12 col-md-6 col-xl-3"> -->
-                <div class="col-12 col-md-6 col-xl-3 card background-change">
-                  <img src="media/image-and-png/bio-fuel.png" class="card-img-top" alt="...">
+            <h3 class="text-center mb-3">Our Products</h3>
+            <h2 class="text-center mb-3">We Provide Best Product</h2>
+
+          </div>
+          <!-- <div class="row" style="padding: 20px;"> -->
+          <!-- <div class="col-12 col-md-6 col-xl-3"> -->
+          <div class="container">
+            <div class="row mt-5">
+              <div class="col mb-3 text-center">
+                <div class="card homestats">
                   <div class="card-body">
-                    <h5 class="card-title">BIO-FUELS</h5>
-                    <p class="card-text">Ship all over the word / The quality complies with the requirements</p>
+                    <!-- <img alt="" src="media/image-and-png/chemicals.png" class="img-fluid" width="212px" /> -->
+                    <div class="card-thumb"><img alt="" src="media/image-and-png/chemicals.png" class="img-fluid" />
+                    </div>
+                    <h3 class="card-title">CHEMICALS</h3>
+                    <p class="card-text">Ship all over the world / The quality complies with the requirements</p>
                   </div>
                 </div>
-              <!-- </div> -->
-              <!-- <div class="col-12 col-md-6 col-xl-3"> -->
-                <div class="col-12 col-md-6 col-xl-3 card background-change">
-                  <img src="media/image-and-png/dal&pulses.png" class="card-img-top" alt="...">
+              </div>
+              <div class="col mb-3 text-center">
+                <div class="card homestats">
                   <div class="card-body">
-                    <h5 class="card-title">PRODUCT & COMMODITIES</h5>
-                    <p class="card-text">Ship all over the word / The quality complies with the requirements</p>
+                    <!-- <img alt="" src="media/image-and-png/dal&pulses.png" class="img-fluid" width="212px" /> -->
+                    <div class="card-thumb"><img alt="" src="media/image-and-png/dal&pulses.png" class="img-fluid" />
+                    </div>
+                    <h3 class="card-title">COMMODITIES</h3>
+                    <p class="card-text">Ship all over the world / The quality complies with the requirements</p>
                   </div>
                 </div>
-              <!-- </div> -->
-              <!-- <div class="col-12 col-md-6 col-xl-3"> -->
-                <div class="col-12 col-md-6 col-xl-3 card background-change">
-                  <img src="media/image-and-png/iron.png" class="card-img-top" alt="...">
+              </div>
+              <div class="col mb-3 text-center">
+                <div class="card homestats">
                   <div class="card-body">
-                    <h5 class="card-title">METALS</h5>
-                    <p class="card-text">Ship all over the word / The quality complies with the requirements</p>
+                    <!-- <img alt="" src="media/image-and-png/iron.png" class="img-fluid" width="212px"/> -->
+                    <div class="card-thumb"><img alt="" src="media/image-and-png/iron.png" class="img-fluid" /></div>
+                    <h3 class="card-title">METAL</h3>
+                    <p class="card-text">Ship all over the world / The quality complies with the requirements</p>
                   </div>
                 </div>
-              <!-- </div> -->
-              <!-- <div class=""> -->
-                <div class="col-12 col-md-6 col-xl-3 card background-change">
-                  <img src="media/image-and-png/chemicals.png" class="card-img-top" alt="...">
+              </div>
+              <div class="col mb-3 text-center">
+                <div class="card homestats">
                   <div class="card-body">
-                    <h5 class="card-title">CHEMICAL</h5>
-                    <p class="card-text">Ship all over the word / The quality complies with the requirements</p>
+                    <!-- <img alt="" src="media/image-and-png/bio-fuel.png" class="img-fluid" width="212px" /> -->
+                    <div class="card-thumb"><img alt="" src="media/image-and-png/bio-fuel.png" class="img-fluid" />
+                    </div>
+                    <h3 class="card-title">BIOFUEL</h3>
+                    <p class="card-text">Ship all over the world / The quality complies with the requirements</p>
                   </div>
                 </div>
-              <!-- </div> -->
+              </div>
+
             </div>
           </div>
         </div>
-      </section>
+    </section>
   </main>
 
   <div class="footerdiv"></div>

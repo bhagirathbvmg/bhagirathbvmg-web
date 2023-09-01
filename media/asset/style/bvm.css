@@ -1,3 +1,25 @@
+
+html, body{
+	margin:0px;
+	padding:0px;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	position:relative;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	font-size:16px;
+	background-color:#FFFFFF;
+
+}
+main{padding-top: 70px;overflow: hidden;}
+
+a:link, a:visited {
+	text-decoration:none;
+}
+
+
+
+/* By Anash */
 * {
     margin: 0px;
     padding: 0px;
@@ -180,31 +202,63 @@ margin-top: 12px;
     border-radius: 12px;
 }
 
-.background-change img{
-    width: 14rem; 
-    height: 14rem;
-    /* margin-left: 35px; */
-    margin: 35px;
+
+.homestats{transform: translateY(0px) scale(1.0);transition: ease all 0.6s;background-color: #137E02;border: 0px;}
+.homestats:hover{transform: translateY(-10px) scale(1.0) !important;transition: ease all 0.6s !important;-webkit-box-shadow: 0 14px 24px rgba(62,57,107,.2);box-shadow: 0 14px 24px rgba(62,57,107,.2);    background: rgba(27,159,148,1);
+    color: #fff;
+    background: -moz-linear-gradient(left, rgba(27,159,148,1) 0%, rgb(17, 14, 14) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(27,159,148,1)), color-stop(100%, rgba(49,109,179,1)));
+    background: -webkit-linear-gradient(left, rgba(27,159,148,1) 0%, rgba(0,0,0,1) 100%);
+    background: -o-linear-gradient(left, rgba(27,159,148,1) 0%, rgba(49,109,179,1) 100%);
+    background: -ms-linear-gradient(left, rgba(27,159,148,1) 0%, rgba(49,109,179,1) 100%);
+    background: linear-gradient(to right, rgba(27,159,148,1) 0%, rgba(49,109,179,1) 100%);
+    /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b9f94', endColorstr='#316db3', GradientType=1 ); */
 }
+.homestats:hover h3{color:#FFF;}
+/* .homestats:hover img{-webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(5); filter: grayscale(100%) brightness(155%) sepia(100%) hue-rotate(0deg) saturate(0%) contrast(5);} */
+.homestats h3{color: #208e9e; margin: 1rem 0rem 0rem 0rem;font-size: 1.5rem;}
+.homestats .card-text{font-size: 12px !important;font-weight: 400 !important;}
+.homestats .card-thumb img{width: 200px;}
+.homestats .card-thumb{min-height: 210px;}
+.homestats .card-body p{font-size: 14px; font-weight: 600;}
+
+
+.homestatsButton{transform: translateY(0px) scale(1.0);transition: ease all 0.6s;background-color: #FD8104;border: 0px;}
+.homestatsButton:hover{transform: translateY(-10px) scale(1.0) !important;transition: ease all 0.6s !important;-webkit-box-shadow: 0 14px 24px rgba(62,57,107,.2);box-shadow: 0 14px 24px rgba(62,57,107,.2);    background: rgba(27,159,148,1);
+    color: #fff;
+    background: -moz-linear-gradient(left, rgba(27,159,148,1) 0%, rgba(49,109,179,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(27,159,148,1)), color-stop(100%, rgba(49,109,179,1)));
+    background: -webkit-linear-gradient(left, rgba(27,159,148,1) 0%, rgba(49,109,179,1) 100%);
+    background: -o-linear-gradient(left, rgba(27,159,148,1) 0%, rgba(49,109,179,1) 100%);
+    background: -ms-linear-gradient(left, rgba(27,159,148,1) 0%, rgba(49,109,179,1) 100%);
+    background: linear-gradient(to right, rgba(27,159,148,1) 0%, rgba(49,109,179,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b9f94', endColorstr='#316db3', GradientType=1 );}
+.homestatsButton:hover h3{color:#FFF;}
+.homestatsButton:hover img{-webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(5); filter: grayscale(100%) brightness(155%) sepia(100%) hue-rotate(0deg) saturate(0%) contrast(5);}
+.homestatsButton h3{color: #208e9e; margin: 0.5rem 0rem 0rem 0rem;font-size: 0.75rem;}
+.homestatsButton .card-text{font-size: 12px !important;font-weight: 120 !important;}
+.homestatsButton .card-thumb img{width: 40px; height: 40px;}
+.homestatsButton .card-thumb{min-height: 60px;}
+.homestatsButton .card-body p{font-size: 10px; font-weight: 120;}
 
 
 
 .card-text {
-    text-align: justify;
+    text-align: center;
 }
 
 .card-title {
     text-align: center;
 }
 
-.text-content1{
+/* .text-content1{
     line-break: strict;
     word-wrap: none;
     overflow: hidden;
 
-}
+} */
 
-.text-content1 h2{
+.text-content1 {
     padding: 12px;
     font-size: 32px;
     margin-top: 53px ;
@@ -212,18 +266,31 @@ margin-top: 12px;
     color: green;
  }
  
- .text-content2{
+ /* .text-content2{
     line-break: strict;
     word-wrap: none;
     overflow: hidden;
- }
- .text-content2 h1{
+ } */
+ .text-content2 {
     font-weight: bold;
     font-size: 53px;
     margin-top: 53px ;
     text-align: center;
+    display: block;
     
  }
+
+ .text-content-bold{
+    line-break: strict;
+    word-wrap: none;
+    overflow: hidden;
+    font-weight: bolder;
+    font-size: 2em;
+    margin-top: 50px ;
+    text-align: center;
+    display: block;
+ }
+
 .text-content{
     line-break: strict;
     word-wrap: none;
@@ -268,16 +335,34 @@ margin-top: 53px;
 }
 
 
-.paragraph_set {
-    font-size: 20px;
-    text-align: justify;
-     width: 384px;
-     font-weight: lighter;
-     display: block;
-     position: relative;
-     left: -12px;
-     flex-wrap: nowrap;
+.paragraph_set {text-align:justify; padding-top: 20px ; color: white;
 }
+
+
+/*Footer*/
+.footerPanel2 h5{color: #FFF;
+    line-height: 40px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;}
+.footerPanel2 h5 a{color: #FFF;
+    line-height: 30px;
+    text-align: left;
+    font-size: 18px;
+        font-weight: 400;
+    padding: 5px 0px;
+    display: block;}
+.footerPanel2 ul{min-height: 50px;}
+.footerPanel2 li{display: block;text-align: left;}
+.footerPanel2 a{color:#606060;font-size: 16px;}
+.footerPanel2 a:hover{color:#2fa3f6}
+.footerPanel2 h6{font-size: 1.5rem;padding: 6px 30px;text-align: center;}
+
+
+.border-right-1{border-right: 1px solid #b5b5b5;}
+
+.border-left-1{border-left: 1px solid #b5b5b5;}
+
 
 #heading-style {
     font-size: 22px;
@@ -297,6 +382,10 @@ margin-top: 53px;
 .set-stylish {
     margin-left: 65px;
 }
+
+.footerBtmPanel{background:none;color:#fff;font-size:1rem;}
+
+.ft-logo img{width: 250px;}
 
 .list-item-footer{
     line-height: 35px;
