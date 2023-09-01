@@ -244,11 +244,13 @@ font-size: 32px;
 
 .paragraph_set {
     font-size: 20px;
-    margin-left: -18px;
     text-align: justify;
-     width: 414px;
+     width: 384px;
      font-weight: lighter;
      display: block;
+     position: relative;
+     left: -12px;
+     flex-wrap: nowrap;
 }
 
 #heading-style {
@@ -537,7 +539,7 @@ ul{
     left: 13px;
     line-clamp:inherit;
     overflow: inherit;
-    width: 223px;
+    width: 203px;
     height: 223px;
  }
 /* procedure */
