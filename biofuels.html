@@ -19,7 +19,8 @@
 
   <title>Biofuels</title>
   <link rel="stylesheet" href="media/asset/style/bvm.css" />
-  <link rel="stylesheet" href="media/assets/fontawesome-free-6.4.0-web/css/all.min.css" />
+  <!-- <link rel="stylesheet" href="media/assets/fontawesome-free-6.4.0-web/css/all.min.css" /> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet" />
@@ -41,7 +42,7 @@
       <div class="container">
         <div class="col-xl-12 col-md-4 mt-5 mb-5 p-4">
           <div class="color-grey">
-            <h3 class="heading">BIO FUEL</h3>
+            <h3 class="heading" style="margin-top: -12px;">BIO FUEL</h3>
             <p class="mt-4 section-paragraphLeft">
               We plays an active role in the marketing and distribution of
               both biodiesel and bioethanol. Having coverage globally, our
@@ -55,7 +56,7 @@
       </div>
     </section>
 
-    <section class="bg-gray" style=" position: relative;left: -123px; padding-right: 94px;padding-left: 71px;">
+    <section class="bg-gray" style=" position: relative;left: -123px; padding-right: 94px;padding-left: 71px;margin-top: -123px;">
       <div class="container" style="margin-left: 123px; margin-top: 30px;">
         <div class="row" style="position: relative; left: 20%;">
           <div class="col-lg-4 pb-3;" style="margin-top: -17px;">
@@ -83,6 +84,10 @@
 
   <!-- footer -->
   <div class="footerdiv"></div>
+  
+  <!-- To top -->
+  <button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+
   <!-- Bootstrap,jquery,javascript -->
   <script src="./media/script/bvw/jquery.min.js"></script>
   <!-- <script src="./media/script/AlphaSoftwareTech/popper.min.js"></script>
@@ -107,4 +112,18 @@
     $(".headerdiv").load("headerHtml.html");
     $(".footerdiv").load("footerHtml.html");
   });
+  $(document).ready(function(){
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 40){
+    $('#topBtn').fadeIn();
+  } else{
+    $('#topBtn').fadeOut();
+  }
+});
+
+$("#topBtn").click(function(){
+  $('html ,body').animate({scrollTop : 0},800);
+});
+});
 </script>

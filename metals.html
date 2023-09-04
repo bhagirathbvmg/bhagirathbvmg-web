@@ -18,7 +18,8 @@
 
   <title>Metals</title>
   <link rel="stylesheet" href="media/asset/style/bvm.css" />
-  <link rel="stylesheet" href="media/assets/fontawesome-free-6.4.0-web/css/all.min.css" />
+  <!-- <link rel="stylesheet" href="media/assets/fontawesome-free-6.4.0-web/css/all.min.css" /> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet" />
@@ -38,7 +39,7 @@
   <main class="overflow-hidden">
     <div class="container mt-5">
       <div class="color-grey pt-5">
-        <h3 class="heading">METALS</h3>
+        <h3 class="heading " style="margin-top: -23px;">METALS</h3>
       </div>
     </div>
 
@@ -116,6 +117,9 @@
   </main>
 
   <div class="footerdiv"></div>
+   <!-- To top -->
+   <button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+  
   <!-- Bootstrap,jquery,javascript -->
   <script src="./media/script/bvw/jquery.min.js"></script>
   <!-- <script src="./media/script/AlphaSoftwareTech/popper.min.js"></script>
@@ -143,5 +147,21 @@
     $(".footerdiv").load("footerHtml.html");
 
   });
+
+  $(document).ready(function(){
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 40){
+    $('#topBtn').fadeIn();
+  } else{
+    $('#topBtn').fadeOut();
+  }
+});
+
+$("#topBtn").click(function(){
+  $('html ,body').animate({scrollTop : 0},800);
+});
+});
+
 
 </script>
